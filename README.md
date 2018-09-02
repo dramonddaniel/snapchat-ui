@@ -7,11 +7,32 @@
   <img src="https://user-images.githubusercontent.com/19694636/44957587-6b80d700-aecb-11e8-8f82-92df77319ed1.gif" width="24%" />
 </p>
 
-<i>How did you manage to load the snaps?</i>
-- I actually wrote up a simple **node.js** server that I've hosted up on Heroku (https://snapchat-nodejs.herokuapp.com/posts) and I use the MVC pattern to fetch and display those snaps.
-
 <i>How did you manage to pull the news articles in the stories view?</i>
 - I actually used the **News API** (https://newsapi.org/) and got a hold of the JSON they provide for their latest MTV articles; again, using the MVC pattern.
+
+<i>How did you manage to load the snaps?</i>
+- I actually wrote up a simple **node.js** server that I've hosted up on Heroku (https://snapchat-nodejs.herokuapp.com/posts) and I use the MVC pattern to fetch and display those snaps. Here's an example of my Snap Object:
+
+```swift
+
+class Snap: NSObject {
+    var username: String?
+    var timestamp: NSNumber?
+    var type: String?
+    var bitmoji: String?
+    var isRead: Bool?
+    var content: String?
+    
+    init(username: String?, timestamp: NSNumber?, type: String?, bitmoji: String?, isRead: Bool?, content: String?) {
+        self.username = username
+        self.timestamp = timestamp
+        self.type = type
+        self.bitmoji = bitmoji
+        self.isRead = isRead
+        self.content = content
+    }
+}
+```
 
 ---
 
