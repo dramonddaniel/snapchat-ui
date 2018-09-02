@@ -7,7 +7,25 @@
 		<key>Snapchat.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>224D10F22012984000FFF592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>224D11062012984100FFF592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>224D11112012984100FFF592</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
