@@ -8,10 +8,10 @@
 </p>
 
 <i>How did you manage to pull the news articles in the stories view?</i>
-- I actually used the **News API** (https://newsapi.org/) and got a hold of the JSON they provide for their latest MTV articles; again, using the MVC pattern.
+- I actually used the **News API** (https://newsapi.org/) and got a hold of the JSON they provide for their latest MTV articles; using the MVC pattern.
 
 <i>How did you manage to load the snaps?</i>
-- I actually wrote up a simple **node.js** server that I've hosted up on Heroku (https://snapchat-nodejs.herokuapp.com/posts) and I use the MVC pattern to fetch and display those snaps. Here's an example of my Snap Object:
+- I actually wrote up a simple **node.js** server that I've hosted up on Heroku (https://snapchat-nodejs.herokuapp.com/posts) and again I used the MVC pattern to fetch and display those snaps. Here's an example of my Snap Object:
 
 ```swift
 
